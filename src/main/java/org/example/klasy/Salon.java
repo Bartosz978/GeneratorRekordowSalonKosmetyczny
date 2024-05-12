@@ -1,4 +1,4 @@
-package org.example;
+package org.example.klasy;
 
 public class Salon {
     private int ID_Salonu;

@@ -1,21 +1,19 @@
 package org.example;
 
+import org.example.constants.Wartosci_Losowe;
+import org.example.file.Filesavecss;
+import org.example.generate.Generuj;
+import org.example.klasy.Kraj;
+
 import java.io.FileWriter;
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("DF");
-        stringBuilder.append("Fddf");
-        System.out.printf(String.valueOf(stringBuilder));
-        try {
-            FileWriter fileWriter = new FileWriter("text.csv");
-            fileWriter.write(stringBuilder.toString());
-            fileWriter.close();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
 
+      // Filesavecss.SavetoCSS(Generuj.returnKategoria(),"co.csv");
+     //  Filesavecss.SavetoCSS(Generuj.returnKlienta(6000),"klient.csv");
+       // System.out.println(Wartosci_Losowe.generujOpis());
+        Filesavecss.SavetoCSS(Generuj.returnMiasto(),"miasta.csv");
     }
 }

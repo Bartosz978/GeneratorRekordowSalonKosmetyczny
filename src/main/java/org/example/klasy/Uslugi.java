@@ -1,4 +1,4 @@
-package org.example;
+package org.example.klasy;
 
 public class Uslugi {
     private int ID_Uslugi;

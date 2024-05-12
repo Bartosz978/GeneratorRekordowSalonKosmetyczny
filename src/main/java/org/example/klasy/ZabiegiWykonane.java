@@ -1,4 +1,4 @@
-package org.example;
+package org.example.klasy;
 
 public class ZabiegiWykonane {
     private int Id_Zabiegu;

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.klasy;
 
 public class PracownikSalonu {
     private int Pracownik_Salonu_ID;
